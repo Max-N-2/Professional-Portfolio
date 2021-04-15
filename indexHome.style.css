@@ -1,0 +1,121 @@
+#title {
+
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+
+    #nav {
+
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+    }
+
+
+   body {
+        background-color: rgba(229, 226, 226, 0.836);
+        width: 1200px;
+        margin-left:auto;
+        margin-right: auto;
+        border-style:double;
+        border-color: lightslategray; 
+        padding: 10px; 
+   
+    }
+
+  
+   
+    #Header {
+
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: rgba(108, 212, 247, 0.938);  
+        margin-left: 5px;
+        margin-right: 5px; 
+        color: white; 
+        
+    }
+
+
+    .grid-main-container { 
+
+        display: grid; 
+        grid-template-columns: 60% 40%;
+        grid-column-gap: 2em; 
+        
+
+        }
+     
+        
+    #intro {
+        
+        margin-top: 50px;
+        margin-right: 320px; 
+        width: 300; 
+        border-style: double; 
+        border-color: rgba(108, 212, 247, 0.938);
+        background-color: lightslategrey;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 125%; 
+        color: white; 
+        text-align: center; 
+
+
+    }
+
+    #image {
+
+        size: 70%; 
+        margin-top: 75px;
+        margin-left: 90px;  
+       
+    
+    }
+
+    .msu {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+        border-style:outset; 
+
+    }
+
+    .nav ul {
+        list-style: none;
+        background-color:lightslategray;
+        text-align: center;
+        padding: 0;
+     
+    }
+    
+    .nav li {
+        font-size: 120%;
+        line-height: 40px;
+        height: 40px;
+        border-bottom: 1px solid #888;
+        padding: 15px; 
+    }
+
+        .nav a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        transition: .3s background-color;
+    }
+    
+        .nav a:hover {
+        background-color: rgb(112, 106, 106);
+    }
+
+        .nav a.active {
+        background-color: #fff;
+        color: rgb(119, 113, 113);
+        cursor: default;
+    }
+
+         .nav li {
+        display: inline-block;
+    }
